@@ -62,3 +62,7 @@ class Mancala
     puts " 1   2   3   4   5   6"
   end
 end
+
+if __FILE__ == $PROGRAM_NAME #=> allow you play game in console
+  Mancala.new("Kyle", "Lauriane").play
+end
